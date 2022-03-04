@@ -5,10 +5,12 @@
 
 ## 项目结构
 ```
--|data
--|work
+-|PaddleVideo # 我们修改之后的训练验证预测套件
+-|generate_data_for_training.py # 生成训练验证视频切片及信息json文件
+-|generate_data_for_testing.py # 生成测试视频切片及信息json文件
+-|utils.py # 数据集预处理及提案后处理工具箱
 -README.MD
--xxx.ipynb
+-main.ipynb # 方案介绍以及展现训练验证测试流程
 ```
 ## 使用方式
 A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/3548768?contributionType=1)  
